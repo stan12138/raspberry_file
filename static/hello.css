@@ -1,3 +1,43 @@
-h1{
-color: red;
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","Microsoft YaHei UI","Microsoft YaHei",sans-serif;
+	background: #ebebeb;
+}
+nav#my{
+	position: fixed;
+	top: 20%;
+	width: 100%;
+	background: white;
+}
+header{
+	background-image: url(images/header.jpg);
+	margin-top: 0px;
+	padding: 0px;
+	position: fixed;
+	width: 100%;
+	height: 20%;
+}
+
+div{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+
+}
+
+h1#my-h1{
+	color: white;
+	font-size: 3em;
+	font-weight: 400;
+}
+
+.navbar-nav{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 2em;
+	font-weight: 200;
 }
