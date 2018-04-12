@@ -51,6 +51,7 @@ class IP_Server :
 						self.log.error("error happen in %s , error information: %s"%(self.device[s][1], er))
 						print(er)
 						self.close_one_client(s)
+						pass
 
 					if data.decode('utf-8') == 'off-line' :
 						#print(self.device[s],'is off-line')
@@ -74,7 +75,7 @@ class IP_Server :
 		if s in self.r_list :
 			self.r_list.remove(s)
 			s.close()
-			self.info("%s is close"%self.device[s][1])
+			self.log.info("%s is close"%self.device[s][1])
 		if s in self.device.keys() :
 			self.ip_record.remove(self.device[s][1])
 			del self.device[s]
