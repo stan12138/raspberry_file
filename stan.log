@@ -1,0 +1,21 @@
+[2018-04-12 04:50:17,690] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-04-12 04:50:39,580] ip_server.py[line:46] INFO : IP: 10.112.254.183, port: 63903 is on-line
+[2018-04-12 04:50:39,585] ip_server.py[line:67] INFO : recv report from 10.112.254.183 (b'Stan-iPad\n63874\n10.112.254.183'), and send get to it already
+[2018-04-12 04:50:57,827] ip_server.py[line:46] INFO : IP: 10.112.210.71, port: 64477 is on-line
+[2018-04-12 04:50:57,831] ip_server.py[line:67] INFO : recv report from 10.112.210.71 (b'Stan-iPhone\n67834\n10.112.210.71'), and send get to it already
+[2018-04-12 04:51:18,656] ip_server.py[line:46] INFO : IP: 10.112.145.120, port: 1922 is on-line
+[2018-04-12 04:51:18,657] ip_server.py[line:67] INFO : recv report from 10.112.145.120 (b'Stan-LabPC\n63874\n10.112.145.120'), and send get to it already
+[2018-04-12 04:51:30,759] ip_server.py[line:51] ERROR : error happen in 10.112.145.120 , error information: [Errno 104] Connection reset by peer
+[2018-04-12 04:57:23,660] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-04-12 04:57:27,901] ip_server.py[line:46] INFO : IP: 10.112.254.183, port: 63904 is on-line
+[2018-04-12 04:57:27,903] ip_server.py[line:67] INFO : recv report from 10.112.254.183 (b'Stan-iPad\n63874\n10.112.254.183'), and send get to it already
+[2018-04-12 04:57:42,707] ip_server.py[line:46] INFO : IP: 10.112.145.120, port: 1958 is on-line
+[2018-04-12 04:57:42,708] ip_server.py[line:67] INFO : recv report from 10.112.145.120 (b'Stan-LabPC\n63874\n10.112.145.120'), and send get to it already
+[2018-04-12 04:57:57,489] ip_server.py[line:51] ERROR : error happen in 10.112.145.120 , error information: [Errno 104] Connection reset by peer
+[2018-04-12 04:59:50,882] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-04-12 05:00:05,472] ip_server.py[line:46] INFO : IP: 10.112.254.183, port: 63905 is on-line
+[2018-04-12 05:00:05,473] ip_server.py[line:68] INFO : recv report from 10.112.254.183 (b'Stan-iPad\n63874\n10.112.254.183'), and send get to it already
+[2018-04-12 05:00:17,259] ip_server.py[line:46] INFO : IP: 10.112.145.120, port: 1971 is on-line
+[2018-04-12 05:00:17,260] ip_server.py[line:68] INFO : recv report from 10.112.145.120 (b'Stan-LabPC\n63874\n10.112.145.120'), and send get to it already
+[2018-04-12 05:00:21,713] ip_server.py[line:51] ERROR : error happen in 10.112.145.120 , error information: [Errno 104] Connection reset by peer
+[2018-04-12 05:00:21,714] ip_server.py[line:78] INFO : 10.112.145.120 is close
