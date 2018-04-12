@@ -52,23 +52,23 @@ class IP_Server :
 						print(er)
 						self.close_one_client(s)
 						pass
-
-					if data.decode('utf-8') == 'off-line' :
-						#print(self.device[s],'is off-line')
-						#self.client.remove(s)
-						self.log.info("%s is off-line"%self.device[s][1])
-						self.close_one_client(s)
-
-					elif self.check_report(data, s) :
-						#防止有人动手脚
-						if not self.device[s][2] :
-							self.device[s][0] = data + b'\n' + self.device[s][0]
-							self.device[s][2] = True
-						s.send(b'get')
-						self.log.info("recv report from %s (%s), and send get to it already"%(self.device[s][1], self.device[s][0]))
-						self.tell_other_device()
 					else :
-						self.close_one_client(s)
+						if data.decode('utf-8') == 'off-line' :
+							#print(self.device[s],'is off-line')
+							#self.client.remove(s)
+							self.log.info("%s is off-line"%self.device[s][1])
+							self.close_one_client(s)
+
+						elif self.check_report(data, s) :
+							#防止有人动手脚
+							if not self.device[s][2] :
+								self.device[s][0] = data + b'\n' + self.device[s][0]
+								self.device[s][2] = True
+							s.send(b'get')
+							self.log.info("recv report from %s (%s), and send get to it already"%(self.device[s][1], self.device[s][0]))
+							self.tell_other_device()
+						else :
+							self.close_one_client(s)
 
 	def close_one_client(self, s) :
 		
