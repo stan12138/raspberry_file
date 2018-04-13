@@ -42,7 +42,7 @@ class IP_Server :
 						#self.client.append(client)
 						self.device[client] = [bytes(client_address[0], 'utf-8'),client_address[0],False]
 						self.ip_record.append(client_address[0])
-						#print(client_address,'is on-line')
+						print(client_address,'is on-line')
 						self.log.info("IP: %s, port: %s is on-line"%client_address)
 				else :
 					try :
