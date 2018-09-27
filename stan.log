@@ -19,3 +19,190 @@
 [2018-04-12 05:00:17,260] ip_server.py[line:68] INFO : recv report from 10.112.145.120 (b'Stan-LabPC\n63874\n10.112.145.120'), and send get to it already
 [2018-04-12 05:00:21,713] ip_server.py[line:51] ERROR : error happen in 10.112.145.120 , error information: [Errno 104] Connection reset by peer
 [2018-04-12 05:00:21,714] ip_server.py[line:78] INFO : 10.112.145.120 is close
+[2018-04-21 08:42:46,375] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-04-21 09:28:34,694] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 4621 is on-line
+[2018-04-21 09:28:34,697] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-04-21 09:28:41,217] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52318 is on-line
+[2018-04-21 09:28:41,219] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-21 09:28:50,198] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-21 09:28:50,199] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-21 09:28:51,257] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-04-21 09:28:51,257] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-04-22 08:31:45,186] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-04-22 08:32:52,241] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 6282 is on-line
+[2018-04-22 08:32:52,241] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-04-22 08:33:05,649] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52537 is on-line
+[2018-04-22 08:33:05,649] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 08:33:07,880] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 08:33:07,880] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 08:33:08,902] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-04-22 08:33:08,902] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-04-22 09:54:59,039] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 1593 is on-line
+[2018-04-22 09:54:59,044] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-04-22 09:55:22,394] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52560 is on-line
+[2018-04-22 09:55:22,394] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 09:55:22,413] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 09:55:22,420] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 09:55:22,433] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 09:55:22,445] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 09:55:24,005] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 09:55:24,005] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 09:55:25,016] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-04-22 09:55:25,017] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-04-22 12:42:58,691] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 63922 is on-line
+[2018-04-22 12:42:58,691] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 12:43:07,888] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52606 is on-line
+[2018-04-22 12:43:07,895] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 12:43:09,793] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 12:43:09,794] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 12:43:09,994] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 12:43:09,994] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 12:46:42,954] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52614 is on-line
+[2018-04-22 12:46:42,955] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 12:47:23,774] ip_server.py[line:96] WARNING : 10.210.68.195 send wrong message (['']), going to close
+[2018-04-22 12:47:23,774] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 12:47:26,204] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 63944 is on-line
+[2018-04-22 12:47:31,453] ip_server.py[line:96] WARNING : 10.210.68.210 send wrong message (['']), going to close
+[2018-04-22 12:47:31,453] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 12:47:40,454] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 63956 is on-line
+[2018-04-22 12:47:40,460] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 12:47:48,458] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52621 is on-line
+[2018-04-22 12:47:48,464] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 12:47:51,591] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 12:47:51,592] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 12:47:52,602] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 12:47:52,602] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:32:54,443] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52640 is on-line
+[2018-04-22 14:32:54,444] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:33:18,617] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64738 is on-line
+[2018-04-22 14:33:18,623] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:33:18,640] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:33:20,436] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:33:20,437] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:33:21,700] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:33:21,701] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:38:12,898] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52654 is on-line
+[2018-04-22 14:38:12,902] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:38:27,780] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64765 is on-line
+[2018-04-22 14:38:32,890] ip_server.py[line:96] WARNING : 10.210.68.195 send wrong message (['']), going to close
+[2018-04-22 14:38:32,890] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:38:36,789] ip_server.py[line:96] WARNING : 10.210.68.210 send wrong message (['']), going to close
+[2018-04-22 14:38:36,789] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:38:47,006] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64772 is on-line
+[2018-04-22 14:38:47,007] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:38:48,066] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52661 is on-line
+[2018-04-22 14:38:48,067] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:38:50,198] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:38:50,199] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:38:51,837] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:38:51,837] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:40:25,813] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64784 is on-line
+[2018-04-22 14:40:25,820] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:40:28,068] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52669 is on-line
+[2018-04-22 14:40:28,071] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:40:31,379] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:40:31,380] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:40:34,068] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:40:34,068] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:42:27,974] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52671 is on-line
+[2018-04-22 14:42:27,975] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:42:29,511] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64810 is on-line
+[2018-04-22 14:42:29,519] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:43:03,734] ip_server.py[line:96] WARNING : 10.210.68.195 send wrong message (['']), going to close
+[2018-04-22 14:43:03,735] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:43:08,966] ip_server.py[line:96] WARNING : 10.210.68.210 send wrong message (['']), going to close
+[2018-04-22 14:43:08,966] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:43:15,351] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64814 is on-line
+[2018-04-22 14:43:15,365] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:43:22,748] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52678 is on-line
+[2018-04-22 14:43:22,753] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:44:00,216] ip_server.py[line:96] WARNING : 10.210.68.195 send wrong message (['']), going to close
+[2018-04-22 14:44:00,216] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:44:08,420] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52679 is on-line
+[2018-04-22 14:44:08,421] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:44:10,517] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:44:10,518] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:44:10,826] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:44:10,827] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:51:31,307] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52687 is on-line
+[2018-04-22 14:51:31,311] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:51:34,375] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64846 is on-line
+[2018-04-22 14:51:34,379] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:51:36,401] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:51:36,401] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:51:36,648] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:51:36,649] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 14:59:01,549] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52689 is on-line
+[2018-04-22 14:59:01,554] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 14:59:07,846] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64885 is on-line
+[2018-04-22 14:59:07,846] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 14:59:09,842] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 14:59:09,842] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 14:59:10,249] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 14:59:10,249] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 15:00:05,428] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64889 is on-line
+[2018-04-22 15:00:05,430] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 15:00:07,270] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 52691 is on-line
+[2018-04-22 15:00:07,271] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:00:07,303] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:00:08,441] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 15:00:08,442] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 15:00:08,940] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 15:00:08,940] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 15:15:28,178] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 53084 is on-line
+[2018-04-22 15:15:28,182] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:15:36,878] ip_server.py[line:96] WARNING : 10.210.68.195 send wrong message (['']), going to close
+[2018-04-22 15:15:36,879] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 15:15:45,155] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 64954 is on-line
+[2018-04-22 15:15:45,183] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 15:15:50,338] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 53091 is on-line
+[2018-04-22 15:15:50,342] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:15:50,354] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:15:56,956] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 15:15:56,956] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 15:15:57,248] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 15:15:57,248] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 15:41:00,349] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 65144 is on-line
+[2018-04-22 15:41:00,349] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 15:41:03,417] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 53106 is on-line
+[2018-04-22 15:41:03,447] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:41:03,486] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-04-22 15:41:07,826] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 15:41:07,827] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 15:41:10,346] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-04-22 15:41:10,347] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-04-22 16:55:40,648] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 7053 is on-line
+[2018-04-22 16:55:40,658] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-04-22 16:55:51,888] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 65462 is on-line
+[2018-04-22 16:55:51,898] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 16:55:51,898] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 16:55:53,539] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 16:55:53,539] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 16:55:54,560] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-04-22 16:55:54,560] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-04-22 16:56:34,529] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 7153 is on-line
+[2018-04-22 16:56:34,539] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-04-22 16:56:49,459] ip_server.py[line:46] INFO : IP: 10.210.68.210, port: 65470 is on-line
+[2018-04-22 16:56:49,469] ip_server.py[line:68] INFO : recv report from 10.210.68.210 (b'Stan-iPhone\n63834\n10.210.68.210'), and send get to it already
+[2018-04-22 16:56:51,968] ip_server.py[line:59] INFO : 10.210.68.210 is off-line
+[2018-04-22 16:56:51,968] ip_server.py[line:78] INFO : 10.210.68.210 is close
+[2018-04-22 16:56:52,999] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-04-22 16:56:52,999] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-05-25 21:52:39,838] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-05-25 21:57:00,186] ip_server.py[line:28] INFO : ip server start bind in port 6000
+[2018-05-25 21:57:06,617] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 13442 is on-line
+[2018-05-25 21:57:06,621] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-05-25 21:58:03,318] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 54614 is on-line
+[2018-05-25 21:58:03,338] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-05-25 21:58:05,335] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-05-25 21:58:05,335] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-05-25 21:58:06,346] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-05-25 21:58:06,347] ip_server.py[line:78] INFO : 10.210.68.203 is close
+[2018-05-26 22:31:42,869] ip_server.py[line:46] INFO : IP: 10.210.68.203, port: 3317 is on-line
+[2018-05-26 22:31:42,878] ip_server.py[line:68] INFO : recv report from 10.210.68.203 (b'Stan-Laptop\n63834\n10.210.68.203'), and send get to it already
+[2018-05-26 22:31:57,785] ip_server.py[line:46] INFO : IP: 10.210.68.195, port: 57340 is on-line
+[2018-05-26 22:31:57,785] ip_server.py[line:68] INFO : recv report from 10.210.68.195 (b'Stan-iPad\n63834\n10.210.68.195'), and send get to it already
+[2018-05-26 22:31:59,324] ip_server.py[line:59] INFO : 10.210.68.195 is off-line
+[2018-05-26 22:31:59,325] ip_server.py[line:78] INFO : 10.210.68.195 is close
+[2018-05-26 22:32:00,379] ip_server.py[line:59] INFO : 10.210.68.203 is off-line
+[2018-05-26 22:32:00,379] ip_server.py[line:78] INFO : 10.210.68.203 is close
