@@ -5,5 +5,13 @@
   <body>
     <h1>Video Streaming Demonstration</h1>
     <img src="{{ url_for('video_feed') }}">
+    
+	<input type="button" class='side-form-button' id="pitch+button" value='pitch+5'/>
+	<input type="button" class='side-form-button' id="pitch-button" value='pitch-5'/>
+	<input type="button" class='side-form-button' id="yaw+button" value='yaw+5'/>
+	<input type="button" class='side-form-button' id="yaw-button" value='yaw-5'/>
+
+	<script type="text/javascript" src="{{url_for('static',filename='backend.js')}}"></script>
+
   </body>
 </html>
