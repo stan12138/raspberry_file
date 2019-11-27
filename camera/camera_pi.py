@@ -13,7 +13,7 @@ class Camera(BaseCamera):
 
             stream = io.BytesIO()
             for _ in camera.capture_continuous(stream, 'jpeg',
-                                                 use_video_port=True, resize=(1920, 1080)):
+                                                 use_video_port=True, resize=(1280, 720)):
                 # return current frame
                 stream.seek(0)
                 yield stream.read()
