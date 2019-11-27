@@ -37,25 +37,25 @@ def backend() :
 
 @app.route("/pitch_add")
 def pitch_add() :
-    print("get pitch add")
+    # print("get pitch add")
     my_servo.pitch_add()
     return ""
 
 @app.route("/pitch_decrease")
 def pitch_decrease() :
-    print("get pitch decrease")
+    # print("get pitch decrease")
     my_servo.pitch_decrease()
     return ""
 
 @app.route("/yaw_add")
 def yaw_add() :
-    print("get yaw add")
+    # print("get yaw add")
     my_servo.yaw_add()
     return ""
 
 @app.route("/yaw_decrease")
 def yaw_decrease() :
-    print("get yaw decrease")
+    # print("get yaw decrease")
     my_servo.yaw_decrease()
     return ""
 
