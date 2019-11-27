@@ -52,6 +52,8 @@ class IP_Server :
 						print(er)
 						self.close_one_client(s)
 						pass
+					except Exception :
+						pass
 					else :
 						if data.decode('utf-8') == 'off-line' :
 							#print(self.device[s],'is off-line')
@@ -71,7 +73,6 @@ class IP_Server :
 							self.close_one_client(s)
 
 	def close_one_client(self, s) :
-		
 		if s in self.r_list :
 			self.r_list.remove(s)
 			s.close()
