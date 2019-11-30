@@ -21,8 +21,8 @@ class Servo :
         GPIO.setup(self.pitch_io, GPIO.OUT)
         GPIO.setup(self.yaw_io, GPIO.OUT)
 
-        self.pitch(self.pitch_angle)
-        self.yaw(self.yaw_angle)
+        # self.pitch(self.pitch_angle)
+        # self.yaw(self.yaw_angle)
 
 
     def set_angle(self, port, angle) :
