@@ -27,10 +27,11 @@ class Servo :
 
     def set_angle(self, port, angle) :
         pwm = GPIO.PWM(port, 50)
-        pwm.start(8)
-        dutycycle = angle/18 + 3
+        pwm.start(0)
+        dutycycle = angle/18
         pwm.ChangeDutyCycle(dutycycle)
-        sleep(0.3)
+        sleep(0.5)
+        pwm.ChangeDutyCycle(0)
         pwm.stop()
 
     def pitch_add(self, pitch_io=17, distance=5) :
