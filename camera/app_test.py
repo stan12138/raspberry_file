@@ -44,7 +44,6 @@ def gen(camera):
 @app.route('/video_feed')
 def video_feed():
     if "user" in session and escape(session["user"])=="stan" :
-    """Video streaming route. Put this in the src attribute of an img tag."""
         return Response(gen(Camera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
     else :
