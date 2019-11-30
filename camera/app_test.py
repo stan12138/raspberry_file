@@ -2,12 +2,12 @@
 from importlib import import_module
 import os
 from flask import Flask, render_template, Response, request, session, escape, redirect, url_for
-# import servo
-# from camera_pi import Camera
+import servo
+from camera_pi import Camera
 
 app = Flask(__name__)
 
-# my_servo = servo.Servo()
+my_servo = servo.Servo()
 
 @app.route('/')
 def index():
