@@ -83,7 +83,7 @@ def yaw_decrease() :
     if "user" in session and escape(session["user"])=="stan" :
         my_servo.yaw_decrease(distance=7)
     return ""
-
+app.secret_key = '123abc'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', threaded=True)
