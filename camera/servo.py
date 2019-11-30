@@ -21,18 +21,22 @@ class Servo :
         GPIO.setup(self.pitch_io, GPIO.OUT)
         GPIO.setup(self.yaw_io, GPIO.OUT)
 
-        self.pitch(self.pitch_angle)
-        self.yaw(self.yaw_angle)
+        self.pwm1 = GPIO.PWM(self.pitch_io, 100)
+        self.pwm2 = GPIO.PWM(self.yaw_io, 100)
+        self.pwm1.start(5)
+        self.pwm2.start(5)
+
+        # self.pitch(self.pitch_angle)
+        # self.yaw(self.yaw_angle)
 
 
     def set_angle(self, port, angle) :
-        pwm = GPIO.PWM(port, 50)
-        pwm.start(0)
-        dutycycle = angle/18
+        if port==self.pitch_io :
+            pwm = self.pwm1
+        else :
+            pwm = self.pwm2
+        dutycycle = angle/10 + 2.5
         pwm.ChangeDutyCycle(dutycycle)
-        sleep(0.5)
-        pwm.ChangeDutyCycle(0)
-        pwm.stop()
 
     def pitch_add(self, pitch_io=17, distance=5) :
         self.pitch_angle += distance
