@@ -1,17 +1,35 @@
 <html>
-  <head>
-    <title>Video Streaming Demonstration</title>
-  </head>
-  <body>
-    <h1>Video Streaming Demonstration</h1>
-    <img src="{{ url_for('video_feed') }}">
-    
-	<input type="button" class='side-form-button' id="pitch+button" value='pitch+5'/>
-	<input type="button" class='side-form-button' id="pitch-button" value='pitch-5'/>
-	<input type="button" class='side-form-button' id="yaw+button" value='yaw+5'/>
-	<input type="button" class='side-form-button' id="yaw-button" value='yaw-5'/>
+    <head>
+        <title>Supervison</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='index.css')}}">
+    </head>
 
-	<script type="text/javascript" src="{{url_for('static',filename='backend.js')}}"></script>
+    <body>
+        <div id="title" align="center">
+            <!-- <h1>Video Streaming Demonstration</h1> -->
+            <img id="title-img" src="{{url_for('static',filename='eye.png')}}">
+        </div>
 
-  </body>
+        <div align="center" id="content-part">
+            <img id="img" src="{{ url_for('video_feed') }}">
+        </div>
+
+        <div id="button_group">
+
+            <div align="center" id="button-up">
+                <input type="button" class='side-form-button' id="yaw_button_1" value=''/>
+            </div>
+
+            <div align="center", id="button-center">
+                <input type="button" class='side-form-button' id="pitch_button_1" value=''/>
+                <input type="button" class='side-form-button' id="pitch_button_2" value=''/>
+            </div>
+
+            <div align="center", id="button-down">
+                <input type="button" class='side-form-button' id="yaw_button_2" value=''/>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="{{url_for('static',filename='backend.js')}}"></script>
+
 </html>

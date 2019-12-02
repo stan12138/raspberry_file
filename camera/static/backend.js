@@ -1,8 +1,8 @@
-var pitch_add = document.getElementById("pitch+button");
-var pitch_decrease = document.getElementById("pitch-button")
+var pitch_add = document.getElementById("pitch_button_1");
+var pitch_decrease = document.getElementById("pitch_button_2")
 
-var yaw_add = document.getElementById("yaw+button")
-var yaw_decrease = document.getElementById("yaw-button")
+var yaw_add = document.getElementById("yaw_button_1")
+var yaw_decrease = document.getElementById("yaw_button_2")
 
 var httprequest;
 
